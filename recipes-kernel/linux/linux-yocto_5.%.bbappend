@@ -35,17 +35,12 @@ FILESEXTRAPATHS_prepend := "${THISDIR}/linux-yocto-5.0:${THISDIR}/files:"
 SRC_URI += " \
     file://0001-Add-V4L2-ioctls-for-the-OMAP3-ISP-to-report-the-vide.patch \
     file://0002-omap-overo-Add-Caspa-camera-to-device-tree.patch \
-    file://0003-Add-a-working-defconfig-for-overo.patch \
-    file://0004-omap3-overo-Add-device-tree-for-Arbor43C-board.patch \
-    file://0005-omap3-overo-Add-device-tree-for-Arbor50C-and-70C.patch \
-    file://0006-omap3-overo-Update-device-tree-for-Arbor-expansion-b.patch \
     file://0007-Add-power-off-support-for-the-TWL4030-6030.patch \
     file://0008-Add-swd-jtag-device-tree-for-overo-storm.patch  \
     file://0009-Add-device-tree-for-thumbo.patch  \
     file://0010-Add-pepper-duovero-garret50c-poblano-dtb-files.patch \
     file://0011-overo-Enable-SDIO-interrupts-for-Wifi-interface.patch \
     file://0012-Overo-Fix-up-WiLink-Support.patch \
-    file://0013-Add-dts-for-pepper-devices.patch \
     file://0014-Fix-duovero-and-add-support-for-duovero-garret50c.patch \
     file://0015-Add-Overo-support-for-Tiny-Caspa-and-fix-dts-for-ove.patch \
     file://0016-Fix-whoami-registers-for-the-st-mag-and-accel-sensor.patch \
@@ -54,7 +49,6 @@ SRC_URI += " \
     file://0019-tfp410-RGB888-not-RGB565-color-mapping-for-botball.patch \
     file://0020-Garret50C-Add-correct-edid-settings-for-800x480-disp.patch \
     file://0021-parlor-fix-HDMI-color-reverse-problem.patch \
-    file://0022-Add-IMU-SPI-support-for-Arbor.patch \
     file://defconfig \
     file://${BOOT_SPLASH} \
 "
