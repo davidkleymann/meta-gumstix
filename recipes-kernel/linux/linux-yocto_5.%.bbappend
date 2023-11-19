@@ -42,7 +42,6 @@ SRC_URI += " \
     file://0011-overo-Enable-SDIO-interrupts-for-Wifi-interface.patch \
     file://0012-Overo-Fix-up-WiLink-Support.patch \
     file://0014-Fix-duovero-and-add-support-for-duovero-garret50c.patch \
-    file://0015-Add-Overo-support-for-Tiny-Caspa-and-fix-dts-for-ove.patch \
     file://0016-Fix-whoami-registers-for-the-st-mag-and-accel-sensor.patch \
     file://0017-Add-input-driver-for-accel-mag-and-gryo-sensors.patch \
     file://0018-Add-ov7692-camera-driver-support.patch \
